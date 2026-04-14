@@ -1,0 +1,41 @@
+1. which of the following are operators and which are values
+* - op
+'hello' - val
+-88.8 - val
+- - op
+/ - op
++ - op 
+5 - val
+
+2. diff variable and string
+spam - variable
+'spam' - string (always starts and ends with quote)
+
+3. name 3 data types - string, floats, int
+
+4. what is an expressions and what do all expressions do?
+expressions are combination of the values and operators, it helps to reduce the values to single values
+
+5. diff expression vs statements
+expressions reduce to single value statements don'the
+
+6. what will be output(what will bacon contain)
+bacon = 20
+bacon + 1
+output: 20
+
+7. what is output
+"spam" + "spamspam"
+"spam" * 3
+output : spamspamspam (same for both)
+
+8.why is eggs valid variable and 100 is not?
+variable name should not starts with int
+
+9. what are 3 functions can be used to get integer, floats and string of a values
+int()
+str()
+float()
+
+10. why error here - 'i have eaten' + 99 + 'burritos'
+concation of int with strings, to solve this use str(99)
