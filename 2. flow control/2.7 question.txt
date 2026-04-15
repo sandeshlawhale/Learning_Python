@@ -1,0 +1,57 @@
+1. what are two values of boolean
+True, False
+
+2. what are 3 boolean operators
+and or not
+
+3. write the truth table
+refer to 2.2 file
+
+4. what do following expression evaluate to 
+refer to 2.2 file (combination part)
+
+5. what are 6 comparasion operators
+==  !=  <  >  <=  >=
+
+6. waht is differece between equal to and assignment operators
+equal to(==) is used to compare two values
+assignment(=) is used to assign a value to varaible
+
+7. explain what a condition is and where you would use one
+condition is a block of code that returns a boolean value 
+based on conditions we decides to run some codes or not
+like in if, for and while
+
+8. write a code that prints hello if 1 is stored in spam, howdy if 3, and greetings! if anything else
+spam = input()
+if spam == 1:
+    print("hello")
+elif spam == 2:
+    print("howdy")
+else:
+    print("Greetings!")
+
+9. what can you pressif your program is stuck in infinite loop
+ctrl + c
+
+10. break vs continue
+break is used to move the execution outside the loop
+continue is used to move the execution of loop to the top of the loop
+
+11. range(10), range(0, 10), range(0, 10, 1)
+all are same, excepts each defines more things, refer to 2.5
+
+12. write a short program to print no. form 1 to 10 using while and for
+for i in range (1,11):
+    print(i)
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+
+13. if we have funcation named bacon() inside the moduled name spam, how to access
+spam.bacon()
+
+
