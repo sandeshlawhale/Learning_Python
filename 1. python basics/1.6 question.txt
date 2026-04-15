@@ -34,8 +34,8 @@ variable name should not starts with int
 
 9. what are 3 functions can be used to get integer, floats and string of a values
 int()
-str()
 float()
+str()
 
 10. why error here - 'i have eaten' + 99 + 'burritos'
 concation of int with strings, to solve this use str(99)
