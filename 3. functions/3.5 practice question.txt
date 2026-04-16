@@ -1,0 +1,27 @@
+1. why are functions adantageous to have in your program
+it increases reusability and readability
+
+2. when does the code in function executes 
+using the def keyword it gets decleared, and by fn_name() it gets called
+
+3. how many global and local scope in python
+only one global scope and local scope gets created when ever a function is called
+
+4. what happens to variables in local scope when the function call returns
+the scope gets destroyed and the variables gets forgotten
+
+5. what does function return if it does not have return type
+None
+
+6. How can you force a variable in a funcation to refer to the globla variable
+by adding the global keyborad before the varaible in function
+
+7. what does the  import areallyourpetsnamederic do
+it imports the module named areallyourpetsnamederic 
+
+8. How can you prevent a program from crashing when it gets an error
+by using exception handling
+
+9. what goes in the try clasue and except clasue
+the code that will potentially cause and error goes in the try clasue
+the code that will run if an error occured in try block
