@@ -1,0 +1,52 @@
+1. what is []
+list
+
+2.how would you assign the value 'hello' as the third value in a list stored in a variable named spam
+spam[2] = 'hello'
+
+for following 3 question use spam = ['a', 'b', 'c', 'd']
+3. what does spam[int('3' * 2) / 11] evaluates to
+spam[3]
+
+4. what does spam[-1] evaluates to
+last element, d
+
+5. what does spam[:2] evaluates to
+start till 2nd value, a b
+
+for following 3 use bacon = [3.14, 'cat', 11, 'cat', True]
+6. what does bacon.index('cat)
+1, as it takes the first occurance
+
+7. what does bacon.append(99)
+[3.14, 'cat', 11, 'cat', True, 99]
+
+8. what does bacon.remove('cat')
+[3.14, 11, 'cat', True]
+
+9. what are operators for list concatination and replication
++ for concatination, and * for replication
+
+10. append vs insert
+append() is used to add element to the last of list while insert() is use to add element anywhere using index
+
+11. two ways to remove values from list
+del() -> del list[2]   or   remove()  -> list.remove(2)
+
+12. name a few ways that a list as similar to string
+.index(), len(), []
+
+13. list vs tuple
+mutable and immutable, [] and ()
+
+14. how do you tyupe the tuple that has just the integer value 42 in it
+(42,)
+
+15. how can you get the tuple from a lsit value and vise versa
+using list() and tuple() functions
+
+16. variables that contains list value dont actually contain lists direactly. what do  they contain instead
+referece of the list
+
+17. what is differece between .copy() and .deepcopy()?
+shallow copy and deep copy, deep copy is used to copy the list inside the list
