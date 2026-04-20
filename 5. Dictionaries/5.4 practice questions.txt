@@ -1,0 +1,22 @@
+1. what does the code for an empty dictionary look like?
+{}
+
+2. what does a dict value with a key foo and a value 42 look like?
+{'foo': 42}
+
+3. what is the main difference between list and dict
+items are ordered, unordered respectively
+
+4. what happen if you try to access spam['foo'] if spam is {'bar' : 1000}
+key value error
+
+5. if a dict is stored in spam then what is the difference between the expression 'cat in spam and cat in spam.keys() and cat in keys.values()
+the cat in spam check for the keys just like the spam.keys() and cat in spam.values() check the cat in values
+
+6\ what is short cut for th following
+if 'color' not in spam :
+    spam['color'] = 'black'
+-> spam.setdefault('color', "black")
+
+7. what module and func is use to pretty print 
+pprint.pprint()
