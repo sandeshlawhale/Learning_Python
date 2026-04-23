@@ -1,0 +1,20 @@
+1. what are escape characters
+this helps you use the characters that is impossible to use othervise
+
+2. what do the \n and \t do
+new line and tab
+
+3. how can you put a \ character in string
+\\
+
+4. how is "howl's moving castle" is valid string
+casue it starts and ends with double quote not interference
+
+5. if you dont want to put the \n in your string how can you write a string with new line
+with ''' '''  triple quotes
+
+6. what string method can use to right justigy , left justify and center a string
+ljust() rjust() center()
+
+7. how can you trim whitesapce from characters
+strip(), lstrip(), rstrip()
