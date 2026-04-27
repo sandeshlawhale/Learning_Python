@@ -1,0 +1,16 @@
+symbols             meanings    
+?                   matches zero or one
+*                   matches zero or more
++                   matches one or more
+{n}                 matches exactly n o f the preceding group  ex. (ha){3} -> hahaha
+{n,}                matches n or more
+{,m}                matches zero to m
+{n,m}               matches atleast n to atmost m 
+{n,m}? | *? | +?    performs a non greedy matches
+^spam               ensures the string should starts with spam
+spam$               ensures the string ends with spam
+.                   matches any character except new line (\n)
+\d, \w, \s          matches digits, word and spaces
+\D, \W, \s          matches everything excep digits, words, and spaces or newline
+[abc]               matches any character that is in between brackets
+[^abc]              matches any character that is not in between brackets
