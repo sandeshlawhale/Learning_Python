@@ -1,0 +1,32 @@
+1. what is relative path relative to 
+cwd - current working directory
+
+2. what does an absolute path start with
+root directory, usually C:
+
+3. what do the os.getcwd() and os.chdir() do
+get currect working directory
+change working directory
+
+4. what are teh . and .. folders
+. is current folder
+.. is parent folder
+
+5. in C:\bacon\eggs\spam.txt, which part is dir and base name
+dir name - C:\bacon\eggs
+base name - spam.txt
+
+6. what are teh three 'mode' arguments that can be passed to the open function
+r - to read mode (default)
+w- write mode
+a - append mode
+
+7. what happends if an existing file is opened in write mode
+it clears and write the new things
+
+8. what is thge difference between read() and readlines() medthods?
+read give the plain text
+readlines give the list of each line
+
+9. what data st. does a shelf value represent
+dictionary
