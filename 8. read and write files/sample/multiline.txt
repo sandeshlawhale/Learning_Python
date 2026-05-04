@@ -1,0 +1,4 @@
+This is totally a sample file,
+Testing how the read, write operation words in python,
+Everyone says its so easy than in other languages.
+Is it really true?
