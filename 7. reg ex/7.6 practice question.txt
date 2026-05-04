@@ -1,0 +1,33 @@
+1. what is the function that creates regex objects?
+re.compile
+
+2. why are raw strings oftern used when creating regex objexts
+\ is use to escape characters and it should not happen in regex
+
+3. what does the serach method returns
+returns the first find of matching pattern
+
+4. how do you get the actual strings that match the pattern from a match object?
+group()
+
+5. in the regex created form r'(\d\d\d)-(\d\d\d-\d\d\d\d)' what does the group0 gorup 1 and group 2 will have
+group 0 will have entire string, gropu 1 will have the frist group and 2nd group in group 2
+
+6. The findall method return alist of strings or alist of tuples string, what makes it return one or the other
+if the reges has teh parentheses gropus it will return teh tuples
+
+7. what does the | character signify
+or
+
+8. what two things does the ?
+non greedy serach and optional
+
+9. * vs +
+zero or more and one or more
+
+10. {3} vd {3,5}
+only 3 occurance,  3-5 occurance
+
+11. hwo to maek case-insensitive regex
+re.IGNORECASE
+
