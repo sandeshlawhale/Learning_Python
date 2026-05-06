@@ -1,0 +1,13 @@
+1. shutil.copy() vs shutil.copytree()
+shutil.copy() - copies the single file
+shutil.copytree() - copies the entire folder and the files and folder in them
+
+2. what function is used to rename the file
+shutil.move() while passing the second argument we pass the another name that we want to change to
+
+3. delete/unlik/shutil vs send2trash
+shutil.rmtree() - deletes the folder permanently
+send2trash - keeps in recyclebin after delete
+
+4. zip file object have close method justlike file objects, what method is equivalent to file objects' open()
+zipfile.ZipFile()
