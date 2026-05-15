@@ -1,0 +1,25 @@
+1. write an assert statement that triggers an assertionError if the variable spam is an integer less than 10
+-> assert(spam >= 10, "Spam should be greater or equals to 10")
+
+2. Write an assert statement that triggers an assertionError if the variables eggs and bacon contain string thata are the same as eachother,
+even if their cases are diffferent (that is, 'hello' and 'hello' are same and 'good' and 'gOOD' are also same)
+-> assert(eggs.lower() != bacon.lower() , 'variable eggs and bacon are same')
+
+3. Write an assert statement that always triggers an assertionError
+-> assert(False, 'always trigger')
+
+4. What are the two lines that your program must have in order to be able to call logging.debug()
+-> import logging
+-> logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')      
+
+5. What are the two lines that your program myst have in order to have logging.debug() send a logging message to file named programLog.txt
+-> logging.basicConfig(filename='programLog.txt', level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s') 
+
+6. What are the five levels of logging
+-> DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+7. What line of code can you add to disable all logging message in your ptrgram
+-> loggin.dissable()
+
+8. why is using logging messages better thatn using print() to display the same
+->  more control and one line dissable
