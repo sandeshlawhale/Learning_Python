@@ -31,3 +31,7 @@ except Exception as e:
     print('was not able to find the element: ', e)
 
 driver.quit()                                                                   
+
+
+
+# there is lot more to selenium, but that is for another day, as this books covers all the basics of every python part
