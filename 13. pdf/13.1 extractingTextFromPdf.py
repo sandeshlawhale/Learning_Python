@@ -17,3 +17,7 @@ print('is pdf encrypted: ', str(pdfReader.is_encrypted))                # this c
 # if the file has the password then we can decrypt the file like
 # pdfReader.decrypt('password')
 
+# to encrypt the pdf we use:
+# pdfWriter obj     -> you will understand in 13.3 how to create writer obj
+# pdfwriter.encrypt('password')
+
