@@ -1,0 +1,20 @@
+1. What is the protocol for sending email? For checking and receiving email?
+-> SMTP is used for sending emails. IMAP is used for checking and receiving emails.
+
+2. What four smtplib functions/methods must you call to log in to an SMTP server?
+-> SMTP(), ehlo(), starttls(), and login()
+
+3. What two imapclient functions/methods must you call to log in to an IMAP server?
+-> IMAPClient() and login()
+
+4. What kind of argument do you pass to imapObj.search()?
+-> A list of strings.
+
+5. What do you do if your code gets an error that says got more than 10000 bytes?
+-> Increase the size limit using imaplib._MAXLINE.
+
+6. The imapclient module handles connecting to an IMAP server and finding emails. What is one module that handles reading the emails that imapclient collects?
+-> pyzmail
+
+7. What three pieces of information do you need from Twilio before you can send text messages?
+-> Twilio account SID, authentication token, and Twilio phone number.
