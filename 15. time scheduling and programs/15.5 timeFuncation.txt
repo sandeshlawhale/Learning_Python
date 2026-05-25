@@ -1,0 +1,28 @@
+Review of Python's Time Functions
+
+1. time.time()
+-> Returns the current Unix timestamp.
+
+2. time.sleep(seconds)
+-> Pauses the program for the specified number of seconds.
+
+3. datetime.datetime(year, month, day, hour, minute, second)
+-> Creates a datetime object for the specified date and time.
+
+4. datetime.datetime.now()
+-> Returns the current date and time.
+
+5. datetime.datetime.fromtimestamp(epoch)
+-> Converts Unix timestamp into datetime object.
+
+6. datetime.timedelta(weeks, days, hours, minutes, seconds)
+-> Represents duration of time.
+
+7. timedelta.total_seconds()
+-> Returns total duration in seconds.
+
+8. datetime.strftime(format)
+-> Converts datetime object into formatted string.
+
+9. datetime.strptime(time_string, format)
+-> Converts string into datetime object.

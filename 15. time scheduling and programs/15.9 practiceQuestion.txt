@@ -1,0 +1,23 @@
+1. What is the Unix epoch?
+-> The Unix epoch is January 1, 1970, 12:00 AM UTC.
+
+2. What function returns the number of seconds since the Unix epoch?
+-> time.time()
+
+3. How can you pause your program for exactly 5 seconds?
+-> time.sleep(5)
+
+4. What does the round() function return?
+-> It returns a rounded number.
+
+5. What is the difference between a datetime object and a timedelta object?
+-> A datetime object represents a specific date and time, while a timedelta object represents a duration of time.
+
+6. Say you have a function named spam(). How can you call this function and run the code inside it in a separate thread?
+-> threading.Thread(target=spam).start()
+
+7. What should you do to avoid concurrency issues with multiple threads?
+-> Avoid multiple threads modifying the same variables at the same time.
+
+8. How can you have your Python program run the calc.exe program located in the C:\Windows\System32 folder?
+-> subprocess.Popen('C:\\Windows\\System32\\calc.exe')
