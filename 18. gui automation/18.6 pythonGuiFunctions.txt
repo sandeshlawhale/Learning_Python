@@ -1,0 +1,37 @@
+Review of PyAutoGUI Functions
+
+1. pyautogui.size()
+-> Returns screen resolution.
+
+2. pyautogui.position()
+-> Returns current mouse coordinates.
+
+3. pyautogui.moveTo(x, y)
+-> Moves mouse to exact position.
+
+4. pyautogui.moveRel(xOffset, yOffset)
+-> Moves mouse relative to current position.
+
+5. pyautogui.click()
+-> Performs mouse click.
+
+6. pyautogui.dragTo(x, y)
+-> Drags mouse to coordinates.
+
+7. pyautogui.scroll()
+-> Scrolls mouse wheel.
+
+8. pyautogui.screenshot()
+-> Takes screenshot.
+
+9. pyautogui.locateOnScreen()
+-> Finds image on screen.
+
+10. pyautogui.write()
+-> Types text using keyboard.
+
+11. pyautogui.press()
+-> Presses keyboard key.
+
+12. pyautogui.hotkey()
+-> Presses multiple keys together.
