@@ -1,6 +1,6 @@
 # Automate the Boring Stuff with Python
 
-![Book Cover](book-image.png)
+![Book Cover](assets/book-image.jpeg)
 
 This repository contains my complete hands-on learning journey through the book **Automate the Boring Stuff with Python** by Al Sweigart.
 
